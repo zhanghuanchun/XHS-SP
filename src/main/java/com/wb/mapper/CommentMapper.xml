@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wb.mapper.CommentMapper">
+
+    <update id="updateCommentIndex">
+
+    </update>
+
+    <insert id="insertCommentIndex">
+
+    </insert>
+
+    <insert id="insertCommentContent">
+
+    </insert>
+
+    <select id="pageRootComment" resultType="int">
+
+    </select>
+
+    <select id="pageSecondComment" resultType="int">
+
+    </select>
+
+    <select id="contents" resultType="int">
+
+    </select>
+
+</mapper>

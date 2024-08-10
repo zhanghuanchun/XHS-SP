@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wb.mapper.CounterMapper">
+
+
+    <update id="update" parameterType="int">
+
+    </update>
+
+    <insert id="insert" parameterType="int">
+
+    </insert>
+
+    <select id="getById">
+
+    </select>
+
+    <select id="gets">
+
+    </select>
+
+    <select id="getPraise">
+        select * from praise where cid=#{cid} and status=0
+    </select>
+
+    <select id="getPraises">
+        select cid from praise where uid=#{uid} limit 0,1000
+    </select>
+
+
+
+
+</mapper>
